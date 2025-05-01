@@ -23,7 +23,7 @@ export const experiences: Experience[] = [
       "Focused on improving build times for legacy platforms by leveraging Nx architecture and splitting code into separate libraries.",
       "Improved code coverage on legacy Angular projects by introducing patterns and utilities for easier test writing."
     ],
-    technologies: ["React", "Next.js", "Refine", "Nx", "Storybook", "SignalR", "App Insights", "Angular"]
+    technologies: ["React", "Angular", "Next.js", "Refine", "Nx", "Storybook", "SignalR", "NgRx", "RxJS", "AI"]
   },
   {
     company: "Pexapark",
@@ -38,7 +38,7 @@ export const experiences: Experience[] = [
       "Actively created user stories bringing formal agile training to the team.",
       "Advocated for code quality and built-in quality by integrating tooling and unit tests into the development process."
     ],
-    technologies: ["Angular", "Storybook", "Angular Material", "UI/UX", "Data Visualization"]
+    technologies: ["Angular", "Storybook", "Angular Material", "UI/UX", "Figma"]
   },
   {
     company: "Legal & General",
@@ -56,7 +56,7 @@ export const experiences: Experience[] = [
       "Gained experience with Java Spring Boot backend making several API contributions.",
       "Presented architectural redesign proposals to senior management for consideration in upcoming funding cycles."
     ],
-    technologies: ["Angular", "Java Spring Boot", "Storybook", "Canopy UI Library", "DevOps", "CI/CD"]
+    technologies: ["Angular", "Java Spring Boot", "Storybook", "NgRx", "Open source", "Visual Regression Testing", "E2E Testing"]
   },
   {
     company: "Imagine Communications",

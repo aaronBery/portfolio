@@ -12,7 +12,7 @@ export const skillCategories: SkillCategory[] = [
   {
     name: "Frontend Frameworks",
     skills: [
-      { name: "React", level: 5 },
+      { name: "React", level: 4 },
       { name: "Angular", level: 5 },
       { name: "Next.js", level: 4 },
       { name: "Refine", level: 4 },
@@ -21,7 +21,7 @@ export const skillCategories: SkillCategory[] = [
   {
     name: "UI Libraries & Tools",
     skills: [
-      { name: "Tailwind", level: 5 },
+      { name: "Tailwind", level: 4 },
       { name: "MUI", level: 4 },
       { name: "Angular Material", level: 5 },
       { name: "Storybook", level: 5 },
@@ -41,8 +41,8 @@ export const skillCategories: SkillCategory[] = [
       { name: "TypeScript", level: 5 },
       { name: "JavaScript", level: 5 },
       { name: "HTML/CSS", level: 5 },
-      { name: "C#", level: 3 },
-      { name: "Java", level: 2 },
+      { name: "C#", level: 2 },
+      { name: "SQL", level: 2 },
     ]
   },
   {
@@ -51,7 +51,7 @@ export const skillCategories: SkillCategory[] = [
       { name: "Git", level: 5 },
       { name: "Jest", level: 4 },
       { name: "CI/CD", level: 4 },
-      { name: "Nx", level: 4 },
+      { name: "Nx", level: 5 },
     ]
   },
   {

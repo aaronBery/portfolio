@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
         <div className="flex items-center mb-4 text-gray-700 dark:text-gray-300">
           <span>Made with</span>
           <Heart className="mx-1 text-red-500" size={16} />
-          <span>in London</span>
+          <span>in Brighton</span>
         </div>
         
         <p className="text-sm text-gray-600 dark:text-gray-400">

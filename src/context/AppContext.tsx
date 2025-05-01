@@ -17,8 +17,8 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
   const value: AppContextType = {
     name: "Aaron Bery",
     role: "Lead Software Engineer",
-    email: "example@email.com",
-    location: "London, United Kingdom",
+    email: "aaronaldo99@gmail.com",
+    location: "Brighton, United Kingdom",
     socialLinks: {
       github: "https://github.com/aaronBery",
       linkedin: "https://www.linkedin.com/in/aaronwebdeveloper/"
