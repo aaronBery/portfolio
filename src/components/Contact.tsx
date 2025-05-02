@@ -53,65 +53,13 @@ const Contact: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 flex items-center justify-center gap-3">
           <Mail className="text-teal-600 dark:text-teal-400" />
-          <span>Get In Touch</span>
+          <span>Contact</span>
         </h2>
         <p className="text-center text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto">
-          Interested in working together? Have a question about my experience? 
-          Feel free to reach out and I'll get back to you as soon as possible.
+          Interested in working together or have a question? Feel free to reach out via email or connect with me below.
         </p>
 
-        <div className="flex flex-col md:flex-row gap-8 md:gap-12">
-          <div className="w-full md:w-1/2">
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                  Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-                  required
-                  className="w-full px-4 py-2 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
-                />
-              </div>
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                  className="w-full px-4 py-2 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
-                />
-              </div>
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  rows={5}
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
-                  required
-                  className="w-full px-4 py-2 rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors resize-none"
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                className="inline-flex items-center px-6 py-3 bg-teal-600 text-white font-medium rounded-md hover:bg-teal-700 transition-colors duration-300 shadow-md"
-              >
-                <Send size={18} className="mr-2" />
-                {submitted ? "Message Sent!" : "Send Message"}
-              </button>
-            </form>
-          </div>
-
+        <div className="flex justify-center">
           <div className="w-full md:w-1/2 bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border border-gray-200 dark:border-gray-700">
             <h3 className="text-xl font-bold mb-4 text-gray-800 dark:text-gray-200">Contact Information</h3>
             
