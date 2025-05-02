@@ -67,7 +67,7 @@ const Experience: React.FC = () => {
                   <div className={`relative flex flex-col ${
                     index % 2 === 0 ? 'md:items-end md:text-right' : 'md:items-start'
                   }`}>
-                    <span className="text-teal-600 dark:text-teal-400 text-lg font-semibold mb-2">
+                    <span className="text-teal-600 dark:text-teal-400 text-lg font-semibold mb-2 pl-10 md:pl-0">
                       {exp.period}
                     </span>
                     <h3 className="text-2xl font-bold mb-1">{exp.company}</h3>
