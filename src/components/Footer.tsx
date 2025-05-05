@@ -9,12 +9,6 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-100 dark:bg-gray-800 py-8">
       <div className="container mx-auto px-4 md:px-6 lg:px-8 flex flex-col items-center">
-        <div className="flex items-center mb-4 text-gray-700 dark:text-gray-300">
-          <span>Made with</span>
-          <Heart className="mx-1 text-red-500" size={16} />
-          <span>in Brighton</span>
-        </div>
-        
         <p className="text-sm text-gray-600 dark:text-gray-400">
           © {currentYear} {name}. All rights reserved.
         </p>
@@ -43,6 +37,14 @@ const Footer: React.FC = () => {
                 className="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors"
               >
                 Skills
+              </a>
+            </li>
+            <li>
+              <a 
+                href="#projects" 
+                className="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors"
+              >
+                Projects
               </a>
             </li>
             <li>

@@ -18,7 +18,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     name: "Aaron Bery",
     role: "Lead Software Engineer",
     email: "aaronaldo99@gmail.com",
-    location: "Brighton, United Kingdom",
+    location: "London & surrounding areas, United Kingdom",
     socialLinks: {
       github: "https://github.com/aaronBery",
       linkedin: "https://www.linkedin.com/in/aaronwebdeveloper/"

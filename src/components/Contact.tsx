@@ -94,14 +94,9 @@ const Contact: React.FC = () => {
               </div>
               
               <div className="pt-6 border-t border-gray-200 dark:border-gray-700">
-                <h4 className="font-medium text-gray-800 dark:text-gray-200 mb-3">Location</h4>
-                <p className="text-gray-700 dark:text-gray-300">{location}</p>
-              </div>
-              
-              <div className="pt-6 border-t border-gray-200 dark:border-gray-700">
                 <h4 className="font-medium text-gray-800 dark:text-gray-200 mb-3">Availability</h4>
                 <p className="text-gray-700 dark:text-gray-300">
-                  Available from 1st August
+                  Available from 1st August (earlier is possible)
                 </p>
               </div>
             </div>

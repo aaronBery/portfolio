@@ -43,10 +43,13 @@ const Header: React.FC = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:block">
           <ul className="flex gap-8">
-            {['About', 'Experience', 'Skills', 'Contact'].map((item) => (
+            {['About', 'Experience', 'Skills', 'Projects', 'Contact'].map((item) => (
               <li key={item}>
                 <button
-                  onClick={() => scrollToSection(item.toLowerCase())}
+                  onClick={() => {
+                    const section = item === 'Projects' ? 'projects' : item.toLowerCase();
+                    scrollToSection(section);
+                  }}
                   className="relative text-gray-600 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition-colors duration-300 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-teal-600 dark:after:bg-teal-400 after:transition-all hover:after:w-full"
                 >
                   {item}
@@ -69,10 +72,13 @@ const Header: React.FC = () => {
         {isMenuOpen && (
           <div className="md:hidden fixed inset-0 top-16 bg-white dark:bg-gray-900 z-40">
             <ul className="flex flex-col items-center gap-6 py-10">
-              {['About', 'Experience', 'Skills', 'Contact'].map((item) => (
+              {['About', 'Experience', 'Skills', 'Projects', 'Contact'].map((item) => (
                 <li key={item}>
                   <button
-                    onClick={() => scrollToSection(item.toLowerCase())}
+                    onClick={() => {
+                      const section = item === 'Projects' ? 'projects' : item.toLowerCase();
+                      scrollToSection(section);
+                    }}
                     className="text-xl font-medium text-gray-800 dark:text-gray-200 hover:text-teal-600 dark:hover:text-teal-400 transition-colors"
                   >
                     {item}

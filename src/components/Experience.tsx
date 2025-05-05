@@ -71,7 +71,8 @@ const Experience: React.FC = () => {
                       {exp.period}
                     </span>
                     <h3 className="text-2xl font-bold mb-1">{exp.company}</h3>
-                    <p className="text-xl text-gray-600 dark:text-gray-400 mb-4">{exp.role}</p>
+                    <p className="text-xl text-gray-600 dark:text-gray-400 mb-1">{exp.role}</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">{exp.location}</p>
                     
                     {/* Timeline dot */}
                     <div className="absolute top-0 left-0 md:left-auto md:top-3 md:-right-12 md:transform md:translate-x-1/2 flex items-center justify-center w-8 h-8 bg-teal-600 dark:bg-teal-400 rounded-full z-10">

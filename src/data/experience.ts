@@ -4,6 +4,7 @@ export interface Experience {
   period: string;
   description: string[];
   technologies: string[];
+  location: string;
 }
 
 export const experiences: Experience[] = [
@@ -23,7 +24,8 @@ export const experiences: Experience[] = [
       "Developed a front-end technology radar adopted company-wide for technological strategy assessment",
       "Organized fortnightly front-end guilds to explore new technologies and encourage knowledge sharing"
     ],
-    technologies: ["React", "Angular", "Next.js", "Refine", "Nx", "Storybook", "SignalR", "NgRx", "RxJS", "AI"]
+    technologies: ["React", "Angular", "Next.js", "Refine", "Nx", "Storybook", "SignalR", "NgRx", "RxJS", "AI"],
+    location: "London"
   },
   {
     company: "Pexapark",
@@ -39,7 +41,8 @@ export const experiences: Experience[] = [
       "Active in creating user stories, bringing skills from formal agile training to the team",
       "Strong advocate for code quality, creating a culture for built-in quality, integrating tooling and unit tests into the development process"
     ],
-    technologies: ["Angular", "Storybook", "Angular Material", "UI/UX", "Figma"]
+    technologies: ["Angular", "Storybook", "Angular Material", "UI/UX", "Figma"],
+    location: "London"
   },
   {
     company: "Legal & General",
@@ -56,7 +59,8 @@ export const experiences: Experience[] = [
       "Working closely with the product owner to gather requirements and provide technical assistance",
       "Improved my teams story writing practices"
     ],
-    technologies: ["Angular", "Java Spring Boot", "Storybook", "NgRx", "Open source", "Visual Regression Testing", "E2E Testing"]
+    technologies: ["Angular", "Java Spring Boot", "Storybook", "NgRx", "Open source", "Visual Regression Testing", "E2E Testing"],
+    location: "Hove"
   },
   {
     company: "Imagine Communications",
@@ -66,7 +70,8 @@ export const experiences: Experience[] = [
       "Played a key role in creating the user interface for a next generation cloud-based web application XG Gameplan that allows broadcasters to optimize their advertising campaigns within their tv schedules",
       "Masterminded an upgrade from Angular JS to Angular running both in parallel"
     ],
-    technologies: ["AngularJS", "Angular", "Storybook", "C#", ".NET"]
+    technologies: ["AngularJS", "Angular", "Storybook", "C#", ".NET"],
+    location: "Thames Ditton"
   },
   {
     company: "Vuelio",
@@ -75,7 +80,8 @@ export const experiences: Experience[] = [
     description: [
       "Created an Angular JS web application which allows PR teams to create and pin press releases and snippets from across the web"
     ],
-    technologies: ["AngularJS", "Web Development"]
+    technologies: ["AngularJS", "Web Development"],
+    location: "London"
   },
   {
     company: "UCL",
@@ -85,7 +91,8 @@ export const experiences: Experience[] = [
       "Created a series of online prospectus for the University as single page web applications using BackboneJS and a REST based API",
       "Maintained and developed the University design system 'Indigo' and pioneered a module loading JavaScript architecture adopted across hundreds of microsites"
     ],
-    technologies: ["BackboneJS", "REST API", "Funnelback", "UI Library", "JavaScript"]
+    technologies: ["BackboneJS", "REST API", "Funnelback", "UI Library", "JavaScript"],
+    location: "London"
   },
   {
     company: "IDG UK",
@@ -95,6 +102,7 @@ export const experiences: Experience[] = [
       "Working on high traffic online publications Macworld, PC Advisor and Digital Arts",
       "Creating the front-end pages that display articles and product reviews"
     ],
-    technologies: ["CSS", "SCSS", "ColdFusion", "MVC", "JavaScript"]
+    technologies: ["CSS", "SCSS", "ColdFusion", "MVC", "JavaScript"],
+    location: "London"
   }
 ];
