@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ThemeToggle from './components/ThemeToggle';
 import { AppProvider } from './context/AppContext';
+import Projects from './components/Projects';
 
 function App() {
   const [theme, setTheme] = useState<'light' | 'dark'>('dark');
@@ -39,6 +40,7 @@ function App() {
           <Hero />
           <Experience />
           <Skills />
+          <Projects />
           <Contact />
         </main>
         <Footer />
