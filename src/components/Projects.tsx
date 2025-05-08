@@ -4,15 +4,17 @@ import { Github, ExternalLink } from "lucide-react";
 const projects = [
   {
     name: "Mastermind (Angular)",
-    description: "A classic code breaker game built with Angular. Try to guess the secret code!",
+    description: "Code breaker game built with Angular 19 adopting Angular Signals for a snappy UI. Utilises CI/CD for auto deployment to GitHub pages",
     liveUrl: "https://aaronbery.github.io/mastermind/",
     githubUrl: "https://github.com/aaronBery/mastermind/",
+    skills: ["Angular", "Signals", "TypeScript", "Tailwind", "Material"]
   },
   {
     name: "Mastermind (React)",
-    description: "A modern version of the classic code breaker game built with React and TypeScript.",
+    description: "Code breaker game built with React and Vite. It adopts MUI and utilises Tailwind for utility classes. Fully CI/CD.",
     liveUrl: "https://aaronbery.github.io/react-mastermind/",
     githubUrl: "https://github.com/aaronBery/react-mastermind",
+    skills: ["React", "TypeScript", "CSS modules", "MUI", "Tailwind"]
   },
 ];
 
@@ -49,6 +51,13 @@ const Projects: React.FC = () => (
                 <Github className="mr-1" size={18} />
                 GitHub
               </a>
+            </div>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {project.skills.map((skill) => (
+                <span key={skill} className="px-3 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">
+                  {skill}
+                </span>
+              ))}
             </div>
           </div>
         ))}
