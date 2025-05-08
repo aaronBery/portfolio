@@ -3,10 +3,16 @@ import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    name: "Mastermind",
+    name: "Mastermind (Angular)",
     description: "A classic code breaker game built with Angular. Try to guess the secret code!",
     liveUrl: "https://aaronbery.github.io/mastermind/",
     githubUrl: "https://github.com/aaronBery/mastermind/",
+  },
+  {
+    name: "Mastermind (React)",
+    description: "A modern version of the classic code breaker game built with React and TypeScript.",
+    liveUrl: "https://aaronbery.github.io/react-mastermind/",
+    githubUrl: "https://github.com/aaronBery/react-mastermind",
   },
 ];
 
