@@ -22,6 +22,12 @@ const projects = [
     githubUrl: "https://github.com/aaronBery/ng-component-finder",
     skills: ["C#"]
   },
+  {
+    name: "Portfolio",
+    description: "This portfolio was built with generative AI and a few human interventions.",
+    githubUrl: "https://github.com/aaronBery/portfolio",
+    skills: ["AI"]
+  },
 ];
 
 const Projects: React.FC = () => (
