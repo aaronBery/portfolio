@@ -16,6 +16,12 @@ const projects = [
     githubUrl: "https://github.com/aaronBery/react-mastermind",
     skills: ["React", "TypeScript", "CSS modules", "MUI", "Tailwind"]
   },
+  {
+    name: "Angular Component Finder",
+    description: "A utility to find unused components in Angular applications, facilitating app maintenance. Built with C# purely for practicing C#.",
+    githubUrl: "https://github.com/aaronBery/ng-component-finder",
+    skills: ["C#"]
+  },
 ];
 
 const Projects: React.FC = () => (
