@@ -18,7 +18,7 @@ const projects = [
   },
   {
     name: "Angular Component Finder",
-    description: "A utility to find unused components in Angular applications, facilitating app maintenance. Built with C# purely for practicing C#.",
+    description: "A utility to find unused components in Angular applications. Built with C# purely for practicing C#.",
     githubUrl: "https://github.com/aaronBery/ng-component-finder",
     skills: ["C#"]
   },
@@ -39,15 +39,17 @@ const Projects: React.FC = () => (
             <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200">{project.name}</h3>
             <p className="text-gray-700 dark:text-gray-300 mb-4">{project.description}</p>
             <div className="mt-auto flex gap-4">
-              <a
-                href={project.liveUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center text-teal-600 dark:text-teal-400 hover:underline"
-              >
-                <ExternalLink className="mr-1" size={18} />
-                Play Game
-              </a>
+              {project.liveUrl && (
+                <a
+                  href={project.liveUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-teal-600 dark:text-teal-400 hover:underline"
+                >
+                  <ExternalLink className="mr-1" size={18} />
+                  Play Game
+                </a>
+              )}
               <a
                 href={project.githubUrl}
                 target="_blank"
