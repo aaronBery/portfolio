@@ -9,9 +9,17 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
+    company: "Helio Intelligence",
+    role: "Senior Fullstack Developer",
+    period: "June 2025 - Present",
+    description: [],
+    technologies: ["Angular", "Nx", "Storybook", "SignalR", "NgRx", "RxJS", "AI", "C#"],
+    location: "London"
+  },
+  {
     company: "Tradeteq",
     role: "Lead Software Engineer",
-    period: "April 2024 - Present",
+    period: "April 2024 - May 2025",
     description: [
       "Led the design and implementation of a new UI platform adopting the React framework Refine with Next.js",
       "Feature development on a legacy trade asset finance system using Angular",
